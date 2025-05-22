@@ -21,6 +21,10 @@ python train.py  configs/sparse_rcnn_r50_fpn_1x_coco2.py
 模型推理：
 python inference.py
 
+生成Mask-rcnn一阶段proposalbox: 
+python proposalbox.py
+
 Tensorboard可视化：
 python showtensorboard.py
 tensorboard --logdir=your logfile path
+
